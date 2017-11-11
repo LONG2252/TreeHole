@@ -106,6 +106,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="demo.css" />
+    <Content Include="demo.html" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Web.config" />
