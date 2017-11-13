@@ -13,6 +13,14 @@ a{
     display:block;
 }
 #hander-con{
-    text-align:center;
-    line-height:
+    width:60%;
+    margin:0px auto;
+}
+.login {
+    float: right;
+    line-height: 30px;
+    margin-right: 10px;
+}
+.login a{
+    color:#ffffff;
 }
