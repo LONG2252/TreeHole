@@ -4,17 +4,29 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
 	<meta charset="utf-8" />
-    <script src="scripts/jquery-3.2.1.min.js"></script>
-    <script src="scripts/layer.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/layer.js"></script>
+    <script src="js/demo.js"></script>
     <link href="demo.css" rel="stylesheet" />
-    <script src="scripts/demo.js"></script>
 </head>
 <body>
+
     <div id="header">
         <div id="hander-con">
-            <div class="login"><a href="javascript:;" onclick="LoginBox()">登录</a></div>
-            <div class="login"><a href="javascript:;" onclick="InsertBox()">注册</a></div>
+            <div class="login-item"><a href="javascript:;" onclick="LoginBox()">登录</a></div>
+            <div class="login-item"><a href="javascript:;" onclick="InsertBox()">注册</a></div>
         </div>
+    </div>
+    <div id="neck">
+        <div id="neck-con">
+            <img id="photo1" src="img/1.png" />
+        </div>
+    </div>
+    <div id="loginbox">
+        <div class="login-can"><input type="text" id="txtUserName" /></div>
+        <div class="login-can"><input type="password" id="txtPwd" /></div>
+        <div class="login-can"><a href="javascript:;">登陆</a></div>
+        <div class="login-can"><a href="javascript:;">注册</a></div>
     </div>
 </body>
 </html>

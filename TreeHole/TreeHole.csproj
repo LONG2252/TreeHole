@@ -94,11 +94,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="img\1.png" />
     <Content Include="img\handerphoto.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="登录验证.html" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -111,9 +113,9 @@
     <Content Include="demo.html" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
-    <Content Include="scripts\demo.js" />
-    <Content Include="scripts\jquery-3.2.1.min.js" />
-    <Content Include="scripts\layer.js" />
+    <Content Include="js\demo.js" />
+    <Content Include="js\jquery-3.2.1.min.js" />
+    <Content Include="js\layer.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
