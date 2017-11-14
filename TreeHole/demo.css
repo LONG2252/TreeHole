@@ -58,13 +58,11 @@ a{
     color:#ffffff;
     font-size:20px;
 }
-#regis{
+#register{
     width:800px;
-    text-align:center;
-    border:1px solid red;
-    
+    margin-left:30%;
 }
-.regis-item{
+    .register-item{
     margin-top:15px;
     margin-left:50px;
     border:1px solid #000000;
@@ -72,8 +70,17 @@ a{
     
 
 }
-.regis-item input{
-    width:300px;
-    height:30px;
-    border:none;
-}
+    .register-item input {
+        width: 300px;
+        height: 30px;
+        border: hidden;
+    }
+    .register-item a{
+        height:35px;
+        background-color:#ff6a00;
+        display:block;
+        text-align:center;
+        line-height:33px;
+        color:#ffffff;
+        font-size:26px;
+    }
