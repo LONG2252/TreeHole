@@ -5,7 +5,7 @@
     <title></title>
 	<meta charset="utf-8" />
     <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/layer.js"></script>
+    <script src="layer/layer.js"></script>
     <script src="js/demo.js"></script>
     <link href="demo.css" rel="stylesheet" />
 </head>
@@ -23,9 +23,9 @@
         </div>
     </div>
     <div id="loginbox">
-        <div class="login-can"><input type="text" id="txtUserName" /></div>
-        <div class="login-can"><input type="password" id="txtPwd" /></div>
-        <div class="login-can"><a href="javascript:;">登陆</a></div>
+        <div class="login-can"><input type="text" id="txtUserName" placeholder="请输入账号" /></div>
+        <div class="login-can"><input type="password" id="txtPwd" placeholder="请输入密码"/></div>
+        <div class="login-can"><a href="javascript:;" onclick="Login()">登陆</a></div>
         <div class="login-can"><a href="javascript:;">注册</a></div>
     </div>
 </body>

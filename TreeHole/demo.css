@@ -16,31 +16,10 @@ a{
     width:60%;
     margin:0px auto;
 }
-.login input{
-    width:176px;
-    height:25px;
-}
-#loginbox{
-    
-    border:1px solid red;
-}
-#login input{
-    width:176px;
-    height:25px;
-}
-
 .login-item{
     float: right;
     line-height: 30px;
     margin-right: 10px;
-}
-.login a{
-    color:#ffffff;
-}
-#item{
-    width:100%;
-    height:260px;
-    background-color:#d3a864;
 }
 #neck-con{
     width:80%;
@@ -52,4 +31,22 @@ a{
 #photo1{
     width:20%;
     height:260px;
+}
+#loginbox{
+
+    display:none;
+}
+.login-can{
+        margin-left:15px;
+        margin-top:15px;
+        float:left;
+}
+.login-can input{
+    width:180px;
+    height:30px;
+}
+.login-can a{
+    margin-left:30px;
+    width:90px;
+    
 }
