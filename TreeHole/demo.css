@@ -62,6 +62,7 @@ a{
 #register{
     width:600px;
     margin-left:30%;
+    border:1px solid red;
 }
     .register-item{
     margin-top:15px;
